@@ -102,8 +102,8 @@ const HeroSection = () => {
           >
             <div className="relative z-10">
               <img
-                src="https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Premium textile yarns and fabrics"
+                src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Premium textile yarns and fabrics manufacturing"
                 className="rounded-2xl shadow-2xl w-full h-[600px] object-cover"
               />
               

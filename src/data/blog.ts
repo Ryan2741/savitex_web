@@ -160,7 +160,7 @@ The yarn market in 2024 promises to be dynamic and full of opportunities. Compan
     author: 'Michael Chen',
     publishedAt: '2024-01-10',
     category: 'Market Analysis',
-    image: 'https://images.pexels.com/photos/8088495/pexels-photo-8088495.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['market-trends', 'yarn-industry', 'global-market', '2024-forecast'],
     readTime: 7
   },
@@ -307,7 +307,7 @@ Effective quality control is not just about testing products; it's about buildin
     author: 'Dr. Priya Sharma',
     publishedAt: '2024-01-05',
     category: 'Quality Assurance',
-    image: 'https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.pexels.com/photos/5691660/pexels-photo-5691660.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['quality-control', 'manufacturing', 'best-practices', 'textile-testing'],
     readTime: 8
   }

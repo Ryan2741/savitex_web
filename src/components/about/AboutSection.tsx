@@ -129,25 +129,25 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.pexels.com/photos/8088495/pexels-photo-8088495.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Textile manufacturing process"
+                  src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Textile yarn manufacturing and quality control"
                   className="rounded-lg shadow-lg w-full h-48 object-cover card-hover"
                 />
                 <img
                   src="https://images.pexels.com/photos/6474468/pexels-photo-6474468.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Paper-based textiles"
+                  alt="Sustainable paper-based textile innovation"
                   className="rounded-lg shadow-lg w-full h-64 object-cover card-hover"
                 />
               </div>
               <div className="space-y-4 pt-8">
                 <img
-                  src="https://images.pexels.com/photos/8088501/pexels-photo-8088501.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Quality control testing"
+                  src="https://images.pexels.com/photos/5691660/pexels-photo-5691660.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Industrial textile machinery and production"
                   className="rounded-lg shadow-lg w-full h-64 object-cover card-hover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Premium yarn products"
+                  src="https://images.pexels.com/photos/5691661/pexels-photo-5691661.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Premium cotton and synthetic yarn products"
                   className="rounded-lg shadow-lg w-full h-48 object-cover card-hover"
                 />
               </div>

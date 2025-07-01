@@ -54,7 +54,7 @@ const About = () => {
     {
       name: 'Michael Chen',
       position: 'Head of Operations',
-      image: 'https://images.pexels.com/photos/3760790/pexels-photo-3760790.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300',
       bio: 'Expert in global supply chain management'
     },
     {
@@ -66,7 +66,7 @@ const About = () => {
     {
       name: 'James Wilson',
       position: 'Quality Assurance Manager',
-      image: 'https://images.pexels.com/photos/3760790/pexels-photo-3760790.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300',
       bio: 'ISO certification and quality control expert'
     }
   ]
