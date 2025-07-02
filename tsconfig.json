@@ -1,5 +1,6 @@
 {
-  "compilerOptions": {
+   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "target": "ESNext",
     "module": "ESNext",
     "jsx": "react-jsx",
