@@ -1,4 +1,3 @@
-import React from 'react'
 import { CheckCircle, Award, Globe, Users } from 'lucide-react'
 import { motion } from 'framer-motion'
 

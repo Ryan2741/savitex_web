@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { Send, CheckCircle, AlertCircle } from 'lucide-react'
 import { supabase } from '../../config/supabase'

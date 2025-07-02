@@ -1,4 +1,3 @@
-import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import HeroSection from '../components/hero/HeroSection'
 import AboutSection from '../components/about/AboutSection'

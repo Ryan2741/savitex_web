@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Zap, Leaf, Shield, Award } from 'lucide-react'
 import { motion } from 'framer-motion'
