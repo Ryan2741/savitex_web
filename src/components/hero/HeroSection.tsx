@@ -14,20 +14,20 @@ const HeroSection = () => {
       </div>
 
       <div className="container-max relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="space-y-8"
+            className="space-y-6 lg:space-y-8 text-center lg:text-left"
           >
             <div className="space-y-4">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="inline-flex items-center px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium"
+                className="inline-flex items-center px-3 md:px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-xs md:text-sm font-medium"
               >
                 🌟 Leading Textile Innovation Since 1995
               </motion.div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
               >
                 Premium <span className="text-gradient">Yarns</span> & 
                 <br />Textile Solutions
@@ -46,7 +46,7 @@ const HeroSection = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="text-xl text-gray-600 leading-relaxed max-w-2xl"
+                className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0"
               >
                 SAVITEX (Pty) Ltd specializes in the import and export of high-quality yarns 
                 and innovative textile products, including cutting-edge paper-based textiles 
@@ -58,7 +58,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="flex flex-col sm:flex-row gap-4"
+              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <Link to="/products" className="btn-primary group">
                 Explore Products
@@ -76,19 +76,19 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200"
+              className="grid grid-cols-3 gap-4 md:gap-8 pt-6 md:pt-8 border-t border-gray-200"
             >
-              <div>
-                <div className="text-3xl font-bold text-primary-600">25+</div>
-                <div className="text-sm text-gray-600">Years Experience</div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl md:text-3xl font-bold text-primary-600">25+</div>
+                <div className="text-xs md:text-sm text-gray-600">Years Experience</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-primary-600">50+</div>
-                <div className="text-sm text-gray-600">Countries Served</div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl md:text-3xl font-bold text-primary-600">50+</div>
+                <div className="text-xs md:text-sm text-gray-600">Countries Served</div>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-primary-600">1000+</div>
-                <div className="text-sm text-gray-600">Happy Clients</div>
+              <div className="text-center lg:text-left">
+                <div className="text-2xl md:text-3xl font-bold text-primary-600">1000+</div>
+                <div className="text-xs md:text-sm text-gray-600">Happy Clients</div>
               </div>
             </motion.div>
           </motion.div>
@@ -98,28 +98,28 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative"
+            className="relative order-first lg:order-last"
           >
             <div className="relative z-10">
               <img
                 src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Premium textile yarns and fabrics manufacturing"
-                className="rounded-2xl shadow-2xl w-full h-[600px] object-cover"
+                className="rounded-2xl shadow-2xl w-full h-64 sm:h-80 md:h-96 lg:h-[600px] object-cover"
               />
               
               {/* Floating Cards */}
               <motion.div
                 animate={{ y: [-10, 10, -10] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -top-6 -left-6 bg-white rounded-xl shadow-xl p-4 max-w-xs"
+                className="absolute -top-4 -left-4 md:-top-6 md:-left-6 bg-white rounded-xl shadow-xl p-3 md:p-4 max-w-xs"
               >
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-                    <span className="text-green-600 font-bold">✓</span>
+                <div className="flex items-center space-x-2 md:space-x-3">
+                  <div className="w-8 h-8 md:w-12 md:h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                    <span className="text-green-600 font-bold text-sm md:text-base">✓</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900">ISO Certified</div>
-                    <div className="text-sm text-gray-600">Quality Assured</div>
+                    <div className="font-semibold text-gray-900 text-sm md:text-base">ISO Certified</div>
+                    <div className="text-xs md:text-sm text-gray-600">Quality Assured</div>
                   </div>
                 </div>
               </motion.div>
@@ -127,15 +127,15 @@ const HeroSection = () => {
               <motion.div
                 animate={{ y: [10, -10, 10] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-                className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-xl p-4 max-w-xs"
+                className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-white rounded-xl shadow-xl p-3 md:p-4 max-w-xs"
               >
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600 font-bold">🌍</span>
+                <div className="flex items-center space-x-2 md:space-x-3">
+                  <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                    <span className="text-blue-600 font-bold text-sm md:text-base">🌍</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900">Global Reach</div>
-                    <div className="text-sm text-gray-600">Worldwide Shipping</div>
+                    <div className="font-semibold text-gray-900 text-sm md:text-base">Global Reach</div>
+                    <div className="text-xs md:text-sm text-gray-600">Worldwide Shipping</div>
                   </div>
                 </div>
               </motion.div>

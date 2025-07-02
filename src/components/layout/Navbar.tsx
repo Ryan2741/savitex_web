@@ -36,20 +36,20 @@ const Navbar = () => {
       isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
     }`}>
       <div className="container-max">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-3 md:py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">S</span>
+            <div className="w-8 h-8 md:w-10 md:h-10 bg-primary-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-lg md:text-xl">S</span>
             </div>
-            <div>
-              <span className="text-xl font-bold text-gray-900">SAVITEX</span>
-              <span className="text-sm text-gray-600 block">(Pty) Ltd</span>
+            <div className="hidden sm:block">
+              <span className="text-lg md:text-xl font-bold text-gray-900">SAVITEX</span>
+              <span className="text-xs md:text-sm text-gray-600 block">(Pty) Ltd</span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {navItems.map((item) => (
               <div key={item.name} className="relative">
                 {item.hasDropdown ? (
@@ -99,7 +99,7 @@ const Navbar = () => {
               </div>
             ))}
             
-            <Link to="/contact" className="btn-primary">
+            <Link to="/contact" className="btn-primary text-sm px-4 py-2">
               Get Quote
             </Link>
           </div>
@@ -134,7 +134,7 @@ const Navbar = () => {
               <Link
                 to="/contact"
                 onClick={() => setIsOpen(false)}
-                className="btn-primary inline-block text-center"
+                className="btn-primary inline-block text-center text-sm py-2"
               >
                 Get Quote
               </Link>
