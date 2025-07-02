@@ -124,9 +124,9 @@ const ProductsSection = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/products" className="btn-primary">
+            <Link to="/products" className="btn-primary group">
               View All Products
-              <ArrowRight className="w-5 h-5 ml-2" />
+              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </motion.div>
