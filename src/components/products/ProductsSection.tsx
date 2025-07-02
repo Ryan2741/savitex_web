@@ -124,9 +124,12 @@ const ProductsSection = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/products" className="btn-primary group">
-              View All Products
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+            <Link 
+              to="/products" 
+              className="inline-flex items-center justify-center bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 group min-w-[200px]"
+            >
+              <span className="mr-3">View All Products</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </Link>
           </div>
         </motion.div>
