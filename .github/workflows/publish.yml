@@ -1,0 +1,25 @@
+name: Build and Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish build folder to build branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: build  # The branch the build output should be pushed to
+          folder: dist   # Vite outputs to dist by default, change if yours is different
+      
