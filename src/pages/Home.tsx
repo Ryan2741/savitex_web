@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>SAVITEX (Pty) Ltd - Premium Yarns & Textile Solutions</title>
-        <meta name="description" content="Leading textile company specializing in import and export of premium yarns and innovative paper-based textile products for global markets." />
-        <meta name="keywords" content="yarns, textiles, import, export, paper-based textiles, SAVITEX, textile solutions, cotton yarns, synthetic yarns" />
-        <meta property="og:title" content="SAVITEX (Pty) Ltd - Premium Yarns & Textile Solutions" />
-        <meta property="og:description" content="Leading textile company specializing in import and export of premium yarns and innovative paper-based textile products." />
+        <title>SAVITEX (Pty) Ltd - Premium Knitted Garments Manufacturer & Wholesale</title>
+        <meta name="description" content="India-based manufacturers of premium knitted garments with integrated production. Wholesale T-shirts, hoodies, track pants, and golfers across South Africa." />
+        <meta name="keywords" content="knitted garments manufacturer, T-shirts wholesale, hoodies, track pants, golfers, South Africa wholesale, integrated manufacturing, Durban" />
+        <meta property="og:title" content="SAVITEX (Pty) Ltd - Premium Knitted Garments Manufacturer" />
+        <meta property="og:description" content="India-based manufacturers of premium knitted garments with integrated production and wholesale operations in South Africa." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="/" />
       </Helmet>

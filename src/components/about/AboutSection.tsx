@@ -5,28 +5,28 @@ const AboutSection = () => {
   const features = [
     {
       icon: <Award className="w-5 h-5 md:w-6 md:h-6" />,
-      title: 'Premium Quality',
-      description: 'ISO certified processes ensuring the highest quality standards in every product.'
+      title: 'Integrated Manufacturing',
+      description: 'Complete production cycle from yarn spinning to finished garments under one roof.'
     },
     {
       icon: <Globe className="w-5 h-5 md:w-6 md:h-6" />,
-      title: 'Global Network',
-      description: 'Extensive international partnerships spanning over 50 countries worldwide.'
+      title: 'Strategic Location',
+      description: 'Based in Durban for efficient import, stock, and distribution across South Africa.'
     },
     {
       icon: <Users className="w-5 h-5 md:w-6 md:h-6" />,
-      title: 'Expert Team',
-      description: 'Experienced professionals with deep industry knowledge and technical expertise.'
+      title: 'Wholesale Expertise',
+      description: 'Specialized in bulk orders for retailers, corporates, and promotional companies.'
     }
   ]
 
   const values = [
-    'Commitment to sustainable textile solutions',
-    'Innovation in paper-based textile technology',
-    'Reliable supply chain management',
-    'Customer-centric approach to business',
-    'Continuous quality improvement',
-    'Environmental responsibility'
+    'High-quality knitted garment manufacturing',
+    'Integrated production from yarn to finished product',
+    'Reliable wholesale supply chain management',
+    'Custom branding and private label services',
+    'Competitive pricing for bulk orders',
+    'Fast turnaround times for urgent orders'
   ]
 
   return (
@@ -59,7 +59,7 @@ const AboutSection = () => {
                 viewport={{ once: true }}
                 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900"
               >
-                Leading the Future of <span className="text-gradient">Textile Innovation</span>
+                Leading <span className="text-gradient">Knitted Garments</span> Manufacturer
               </motion.h2>
               
               <motion.p
@@ -69,10 +69,10 @@ const AboutSection = () => {
                 viewport={{ once: true }}
                 className="text-base md:text-lg text-gray-600 leading-relaxed"
               >
-                Since 1995, SAVITEX (Pty) Ltd has been at the forefront of textile innovation, 
-                specializing in the import and export of premium yarns and revolutionary 
-                paper-based textile solutions. Our commitment to quality and sustainability 
-                has made us a trusted partner for businesses worldwide.
+                We are India-based manufacturers of high-quality knitted garments with integrated 
+                units covering the complete production cycle from yarn spinning to fabric knitting 
+                and garment manufacturing. Strategically located in Durban, we wholesale premium 
+                T-shirts, hoodies, track pants, and more across South Africa.
               </motion.p>
             </div>
 
@@ -105,7 +105,7 @@ const AboutSection = () => {
               viewport={{ once: true }}
               className="space-y-4"
             >
-              <h3 className="text-lg md:text-xl font-semibold text-gray-900">Our Core Values</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900">Our Capabilities</h3>
               <div className="grid grid-cols-1 gap-2 md:gap-3">
                 {values.map((value, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -128,25 +128,25 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-3 md:gap-4">
               <div className="space-y-3 md:space-y-4">
                 <img
-                  src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Textile yarn manufacturing and quality control"
+                  src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Knitted garments manufacturing facility"
                   className="rounded-lg shadow-lg w-full h-32 sm:h-40 md:h-48 object-cover card-hover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/6474468/pexels-photo-6474468.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Sustainable paper-based textile innovation"
+                  src="https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Premium T-shirts and garments production"
                   className="rounded-lg shadow-lg w-full h-40 sm:h-52 md:h-64 object-cover card-hover"
                 />
               </div>
               <div className="space-y-3 md:space-y-4 pt-6 md:pt-8">
                 <img
-                  src="https://images.pexels.com/photos/5691660/pexels-photo-5691660.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Industrial textile machinery and production"
+                  src="https://images.pexels.com/photos/7679721/pexels-photo-7679721.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Hoodies and sweatshirts manufacturing"
                   className="rounded-lg shadow-lg w-full h-40 sm:h-52 md:h-64 object-cover card-hover"
                 />
                 <img
-                  src="https://images.pexels.com/photos/5691661/pexels-photo-5691661.jpeg?auto=compress&cs=tinysrgb&w=400"
-                  alt="Premium cotton and synthetic yarn products"
+                  src="https://images.pexels.com/photos/8532617/pexels-photo-8532617.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Quality control and garment finishing"
                   className="rounded-lg shadow-lg w-full h-32 sm:h-40 md:h-48 object-cover card-hover"
                 />
               </div>
@@ -159,9 +159,9 @@ const AboutSection = () => {
               className="absolute -bottom-4 -left-4 md:-bottom-6 md:-left-6 bg-white rounded-xl shadow-xl p-4 md:p-6 max-w-xs"
             >
               <div className="text-center">
-                <div className="text-xl md:text-2xl font-bold text-primary-600 mb-1">25+</div>
-                <div className="text-xs md:text-sm text-gray-600">Years of Excellence</div>
-                <div className="text-xs text-gray-500 mt-2">Trusted by industry leaders worldwide</div>
+                <div className="text-xl md:text-2xl font-bold text-primary-600 mb-1">1M+</div>
+                <div className="text-xs md:text-sm text-gray-600">Garments Produced Annually</div>
+                <div className="text-xs text-gray-500 mt-2">Trusted by retailers across SA</div>
               </div>
             </motion.div>
           </motion.div>

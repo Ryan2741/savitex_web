@@ -15,243 +15,277 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    title: 'The Future of Sustainable Textiles: Paper-Based Innovations',
-    slug: 'future-sustainable-textiles-paper-innovations',
-    excerpt: 'Exploring how paper-based textiles are revolutionizing the industry with eco-friendly alternatives that don\'t compromise on quality or performance.',
+    title: 'The Future of Knitted Garments: Sustainable Manufacturing Practices',
+    slug: 'future-knitted-garments-sustainable-manufacturing',
+    excerpt: 'Exploring how integrated manufacturing and sustainable practices are revolutionizing the knitted garments industry while maintaining quality and cost-effectiveness.',
     content: `
-# The Future of Sustainable Textiles: Paper-Based Innovations
+# The Future of Knitted Garments: Sustainable Manufacturing Practices
 
-The textile industry is undergoing a revolutionary transformation as sustainability becomes not just a trend, but a necessity. At SAVITEX, we're at the forefront of this change, pioneering innovative paper-based textile solutions that are reshaping how we think about fabric production.
+The knitted garments industry is experiencing a significant transformation as manufacturers embrace sustainable practices while maintaining the quality and affordability that customers demand. At SAVITEX, we're leading this change through our integrated manufacturing approach.
 
-## The Environmental Imperative
+## The Integrated Manufacturing Advantage
 
-Traditional textile production has long been associated with significant environmental challenges. From water consumption to chemical processing, the industry has faced mounting pressure to find sustainable alternatives. Paper-based textiles offer a compelling solution that addresses many of these concerns.
+Our integrated manufacturing process, from yarn spinning to finished garments, offers several key benefits:
 
-## Innovation in Paper Textiles
+- **Quality Control**: Complete oversight of every production stage
+- **Cost Efficiency**: Reduced intermediary costs and faster production
+- **Sustainability**: Minimized transportation and waste
+- **Flexibility**: Quick adaptation to market demands
 
-Our paper-based textile innovations represent years of research and development. These materials offer:
+## Sustainable Practices in Knitted Garments
 
-- **100% Biodegradability**: Unlike synthetic alternatives, paper textiles break down naturally
-- **Reduced Water Usage**: Manufacturing requires significantly less water than traditional processes
-- **Renewable Resources**: Made from sustainably sourced paper pulp
-- **Versatile Applications**: Suitable for fashion, home decor, and industrial uses
+### Water Conservation
+Modern knitting and dyeing processes use significantly less water than traditional methods. Our facilities implement:
+- Closed-loop water systems
+- Advanced filtration and recycling
+- Reduced chemical usage
 
-## Market Applications
+### Energy Efficiency
+- Solar-powered manufacturing units
+- Energy-efficient machinery
+- Optimized production schedules
 
-The applications for paper-based textiles are expanding rapidly:
+## Market Trends in South Africa
 
-### Fashion Industry
-- Eco-friendly accessories
-- Sustainable packaging for luxury goods
-- Temporary fashion items for events
+The South African wholesale market is showing increased demand for:
+- **Corporate Uniforms**: High-quality polo shirts and T-shirts
+- **Promotional Merchandise**: Custom branded apparel
+- **Retail Fashion**: Trendy hoodies and casual wear
+- **Sports Apparel**: Performance track pants and athletic wear
 
-### Home Decor
-- Biodegradable table linens
-- Temporary decorative elements
-- Sustainable gift wrapping
+## Quality Standards
 
-### Industrial Applications
-- Protective packaging materials
-- Filtration systems
-- Temporary construction materials
+Our commitment to quality includes:
+- Premium cotton and cotton-blend fabrics
+- Colorfast dyes that maintain vibrancy
+- Reinforced seams for durability
+- Pre-shrunk materials
 
 ## The SAVITEX Advantage
 
-Our commitment to quality ensures that sustainability doesn't mean compromising on performance. Our paper textiles undergo rigorous testing to meet industry standards while maintaining their eco-friendly properties.
+Located strategically in Durban, we serve the entire South African market with:
+- Fast delivery times
+- Competitive wholesale pricing
+- Custom branding services
+- Flexible order quantities
 
 ## Looking Forward
 
-As we continue to innovate, we're exploring new applications and improving the performance characteristics of paper-based textiles. The future of sustainable textiles is bright, and SAVITEX is proud to be leading the way.
+The future of knitted garments manufacturing lies in balancing sustainability, quality, and affordability. Our integrated approach positions us perfectly to meet these evolving demands.
 
-*Contact us to learn more about our sustainable textile solutions and how they can benefit your business.*
+*Contact SAVITEX today to learn more about our sustainable knitted garments and wholesale solutions.*
     `,
-    author: 'Dr. Sarah Mitchell',
+    author: 'Rajesh Patel',
     publishedAt: '2024-01-15',
-    category: 'Innovation',
-    image: 'https://images.pexels.com/photos/6474468/pexels-photo-6474468.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['sustainability', 'innovation', 'paper-textiles', 'eco-friendly'],
+    category: 'Manufacturing',
+    image: 'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tags: ['sustainability', 'manufacturing', 'knitted-garments', 'wholesale'],
     readTime: 5
   },
   {
     id: '2',
-    title: 'Global Yarn Market Trends: What to Expect in 2024',
-    slug: 'global-yarn-market-trends-2024',
-    excerpt: 'An in-depth analysis of emerging trends in the global yarn market, including technological advances and shifting consumer preferences.',
+    title: 'Wholesale Garments Market Trends in South Africa 2024',
+    slug: 'wholesale-garments-market-trends-south-africa-2024',
+    excerpt: 'An in-depth analysis of the South African wholesale garments market, including emerging trends, consumer preferences, and business opportunities.',
     content: `
-# Global Yarn Market Trends: What to Expect in 2024
+# Wholesale Garments Market Trends in South Africa 2024
 
-The global yarn market continues to evolve rapidly, driven by technological innovations, changing consumer preferences, and sustainability concerns. As a leading player in yarn import and export, SAVITEX provides insights into the key trends shaping our industry.
+The South African wholesale garments market continues to evolve, driven by changing consumer preferences, economic factors, and new business models. As a leading wholesale supplier, SAVITEX provides insights into the key trends shaping our industry.
 
 ## Market Overview
 
-The global yarn market is experiencing unprecedented growth, with several factors contributing to this expansion:
+The South African wholesale garments market is experiencing steady growth, with several factors contributing to this expansion:
 
-- Increasing demand for technical textiles
-- Growing awareness of sustainable materials
-- Technological advances in yarn production
-- Expanding applications in non-traditional sectors
+- Increasing demand for corporate uniforms
+- Growth in promotional merchandise sector
+- Rising popularity of casual wear
+- Expansion of retail chains
 
 ## Key Trends for 2024
 
-### 1. Sustainable Yarn Solutions
-Environmental consciousness is driving demand for eco-friendly yarn options:
-- Recycled fiber yarns
-- Bio-based synthetic yarns
-- Organic cotton yarns
-- Paper-based textile yarns
+### 1. Corporate Uniform Demand
+Businesses are investing more in professional uniforms:
+- Polo shirts for service industries
+- Branded T-shirts for retail staff
+- Smart-casual wear for office environments
+- Safety-compliant workwear
 
-### 2. Smart Textiles Integration
-The integration of technology into textiles is creating new opportunities:
-- Conductive yarns for wearable electronics
-- Temperature-regulating fibers
-- Antimicrobial treatments
-- UV-protective yarns
+### 2. Promotional Merchandise Growth
+Companies are using branded apparel for marketing:
+- Event T-shirts and hoodies
+- Corporate gifts and giveaways
+- Trade show merchandise
+- Employee appreciation items
 
-### 3. Regional Market Dynamics
-Different regions are showing distinct preferences:
-- **Asia-Pacific**: Focus on technical and industrial yarns
-- **Europe**: Emphasis on sustainable and premium yarns
-- **North America**: Growing demand for performance yarns
-- **Emerging Markets**: Increasing consumption of basic yarns
+### 3. Quality Over Price
+Customers are prioritizing quality:
+- Durable fabrics that last longer
+- Better fit and comfort
+- Colorfast materials
+- Professional finishing
 
-## Technological Innovations
+## Regional Market Dynamics
 
-### Advanced Spinning Technologies
-New spinning technologies are improving yarn quality and efficiency:
-- Air-jet spinning for better yarn structure
-- Compact spinning for reduced hairiness
-- Ring spinning innovations for enhanced strength
+Different regions show distinct preferences:
+- **Gauteng**: High demand for corporate wear
+- **Western Cape**: Focus on retail and tourism apparel
+- **KwaZulu-Natal**: Growing industrial uniform market
+- **Eastern Cape**: Emerging promotional merchandise sector
 
-### Digital Integration
-Industry 4.0 is transforming yarn production:
-- IoT-enabled quality monitoring
-- Predictive maintenance systems
-- Automated quality control
-- Real-time production optimization
+## Product Categories in Demand
 
-## Market Challenges and Opportunities
+### T-Shirts
+- Round neck and V-neck styles
+- Various weights from 160-200 GSM
+- Wide color range availability
+- Custom printing capabilities
+
+### Hoodies and Sweatshirts
+- Zip-up and pullover styles
+- Corporate branding options
+- Seasonal demand patterns
+- Premium fleece lining
+
+### Track Pants and Shorts
+- Athletic and casual styles
+- Corporate team building events
+- School and sports club uniforms
+- Promotional giveaways
+
+### Golfers and Polos
+- Professional business wear
+- Golf club merchandise
+- Corporate events
+- Retail uniform applications
+
+## Challenges and Opportunities
 
 ### Challenges
-- Raw material price volatility
-- Supply chain disruptions
-- Regulatory compliance requirements
-- Competition from alternative materials
+- Import competition
+- Economic pressures on pricing
+- Seasonal demand fluctuations
+- Quality consistency requirements
 
 ### Opportunities
-- Growing technical textile market
-- Increasing demand for sustainable products
-- Expansion into emerging markets
-- Innovation in specialty yarns
+- Growing corporate sector
+- Increased promotional spending
+- Custom branding services
+- Online wholesale platforms
 
-## SAVITEX's Strategic Position
+## SAVITEX's Market Position
 
-Our strategic approach to these market trends includes:
-- Diversified product portfolio
-- Strong supplier relationships
-- Investment in sustainable technologies
-- Focus on emerging market opportunities
+Our strategic advantages include:
+- Integrated manufacturing for cost efficiency
+- Durban location for nationwide distribution
+- Flexible order quantities
+- Custom branding capabilities
+- Consistent quality standards
 
-## Conclusion
+## Future Outlook
 
-The yarn market in 2024 promises to be dynamic and full of opportunities. Companies that can adapt to changing trends while maintaining quality and sustainability will be best positioned for success.
+The wholesale garments market in South Africa shows promising growth potential, driven by:
+- Economic recovery
+- Increased business confidence
+- Growing promotional merchandise sector
+- Expansion of retail chains
 
-*Stay ahead of market trends with SAVITEX's expert insights and premium yarn solutions.*
+*Partner with SAVITEX for reliable wholesale garments supply and stay ahead of market trends.*
     `,
-    author: 'Michael Chen',
+    author: 'Michael van der Merwe',
     publishedAt: '2024-01-10',
     category: 'Market Analysis',
-    image: 'https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['market-trends', 'yarn-industry', 'global-market', '2024-forecast'],
+    image: 'https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tags: ['market-trends', 'wholesale', 'south-africa', '2024-forecast'],
     readTime: 7
   },
   {
     id: '3',
-    title: 'Quality Control in Textile Manufacturing: Best Practices',
-    slug: 'quality-control-textile-manufacturing-best-practices',
-    excerpt: 'Comprehensive guide to implementing effective quality control measures in textile manufacturing to ensure consistent product excellence.',
+    title: 'Quality Control in Knitted Garments Manufacturing',
+    slug: 'quality-control-knitted-garments-manufacturing',
+    excerpt: 'Comprehensive guide to implementing effective quality control measures in knitted garments manufacturing to ensure consistent product excellence.',
     content: `
-# Quality Control in Textile Manufacturing: Best Practices
+# Quality Control in Knitted Garments Manufacturing
 
-Quality control is the cornerstone of successful textile manufacturing. At SAVITEX, we've developed comprehensive quality assurance protocols that ensure our products meet the highest international standards. Here's our guide to implementing effective quality control measures.
+Quality control is the foundation of successful knitted garments manufacturing. At SAVITEX, we've developed comprehensive quality assurance protocols that ensure our products meet the highest standards throughout our integrated production process.
 
 ## The Importance of Quality Control
 
-Quality control in textile manufacturing serves multiple purposes:
-- Ensures product consistency
-- Reduces waste and rework
-- Maintains customer satisfaction
+Quality control in knitted garments manufacturing serves multiple purposes:
+- Ensures product consistency across batches
+- Reduces waste and rework costs
+- Maintains customer satisfaction and loyalty
 - Protects brand reputation
-- Ensures regulatory compliance
+- Ensures compliance with industry standards
 
 ## Key Quality Parameters
 
-### Physical Properties
-- **Tensile Strength**: Resistance to breaking under tension
-- **Elongation**: Ability to stretch without breaking
-- **Twist**: Number of turns per unit length
-- **Evenness**: Consistency of thickness along the yarn
+### Fabric Quality
+- **Fabric Weight**: Consistent GSM across the fabric
+- **Yarn Quality**: Strength, evenness, and twist consistency
+- **Knit Structure**: Proper loop formation and fabric stability
+- **Dimensional Stability**: Shrinkage control and shape retention
 
-### Chemical Properties
-- **pH Levels**: Acidity or alkalinity of the material
-- **Moisture Content**: Amount of water present
-- **Chemical Composition**: Purity and composition analysis
-- **Dye Fastness**: Resistance to color bleeding
+### Construction Quality
+- **Seam Strength**: Proper stitching and seam durability
+- **Fit and Sizing**: Accurate measurements and grading
+- **Finishing**: Professional hemming and edge treatments
+- **Trims and Accessories**: Quality buttons, zippers, and labels
 
-### Visual Properties
-- **Color Consistency**: Uniformity of color across batches
-- **Surface Defects**: Identification of knots, thick places, thin places
-- **Luster**: Shine and appearance quality
-- **Hand Feel**: Texture and tactile properties
+### Color and Appearance
+- **Color Consistency**: Uniform dyeing across batches
+- **Color Fastness**: Resistance to washing and light
+- **Surface Quality**: Smooth finish without defects
+- **Print Quality**: Sharp, durable printing when applicable
 
 ## Quality Control Process
 
 ### 1. Raw Material Inspection
-Every batch of raw materials undergoes thorough inspection:
-- Visual examination for defects
-- Laboratory testing for key parameters
-- Documentation of test results
-- Approval or rejection based on specifications
+Every batch of yarn and materials undergoes thorough inspection:
+- Visual examination for defects and irregularities
+- Laboratory testing for strength and quality parameters
+- Color matching and consistency verification
+- Documentation of test results and approvals
 
 ### 2. In-Process Monitoring
 Continuous monitoring during production:
-- Regular sampling at predetermined intervals
-- Real-time testing of critical parameters
-- Immediate corrective action when deviations occur
-- Process adjustment based on test results
+- Regular fabric quality checks during knitting
+- Dimensional measurements at key stages
+- Color verification during dyeing processes
+- Construction quality checks during assembly
 
 ### 3. Final Product Testing
 Comprehensive testing before shipment:
 - Complete specification verification
-- Performance testing under simulated conditions
+- Wash and wear testing
 - Packaging and labeling verification
-- Final approval and release
+- Final approval and release procedures
 
 ## Testing Equipment and Methods
 
 ### Laboratory Equipment
-- **Tensile Testing Machines**: For strength and elongation testing
-- **Twist Testers**: For measuring yarn twist
-- **Evenness Testers**: For assessing yarn uniformity
-- **Color Matching Cabinets**: For color consistency evaluation
+- **Fabric Testing Machines**: For strength and stretch testing
+- **Color Matching Systems**: For accurate color verification
+- **Dimensional Stability Testers**: For shrinkage testing
+- **Wash Fastness Equipment**: For colorfastness testing
 
 ### Testing Standards
 We adhere to international testing standards:
 - ASTM (American Society for Testing and Materials)
 - ISO (International Organization for Standardization)
 - AATCC (American Association of Textile Chemists and Colorists)
-- BS (British Standards)
+- SABS (South African Bureau of Standards)
 
 ## Digital Quality Management
 
 ### Data Collection and Analysis
-- Automated data collection systems
-- Statistical process control (SPC)
+- Automated quality data collection systems
+- Statistical process control (SPC) implementation
 - Trend analysis and reporting
 - Predictive quality analytics
 
 ### Traceability Systems
-- Batch tracking from raw material to finished product
-- Digital quality records
+- Complete batch tracking from yarn to finished garment
+- Digital quality records and certificates
 - Supplier performance monitoring
 - Customer feedback integration
 
@@ -262,20 +296,20 @@ When quality issues arise:
 - Systematic investigation of causes
 - Implementation of corrective actions
 - Preventive measures to avoid recurrence
-- Documentation of lessons learned
+- Documentation and knowledge sharing
 
 ### Training and Development
 - Regular training for quality control personnel
 - Updates on new testing methods and standards
 - Cross-functional quality awareness programs
-- Certification and skill development
+- Skill development and certification
 
 ## Supplier Quality Management
 
 ### Supplier Qualification
-- Comprehensive supplier audits
-- Quality capability assessments
-- Certification requirements
+- Comprehensive supplier audits and assessments
+- Quality capability evaluations
+- Certification requirements and standards
 - Performance monitoring systems
 
 ### Collaborative Improvement
@@ -287,7 +321,7 @@ When quality issues arise:
 ## Customer Quality Assurance
 
 ### Customer Requirements
-- Understanding specific customer needs
+- Understanding specific customer quality needs
 - Customized quality specifications
 - Regular communication and feedback
 - Continuous improvement based on customer input
@@ -300,22 +334,22 @@ When quality issues arise:
 
 ## Conclusion
 
-Effective quality control is not just about testing products; it's about building a culture of quality throughout the organization. At SAVITEX, our commitment to quality excellence ensures that our customers receive products that consistently meet their expectations and requirements.
+Effective quality control is not just about testing products; it's about building a culture of quality throughout the organization. At SAVITEX, our commitment to quality excellence ensures that our customers receive knitted garments that consistently meet their expectations and requirements.
 
-*Partner with SAVITEX for textile solutions backed by rigorous quality control and continuous improvement.*
+*Partner with SAVITEX for knitted garments backed by rigorous quality control and continuous improvement.*
     `,
-    author: 'Dr. Priya Sharma',
+    author: 'Anita Singh',
     publishedAt: '2024-01-05',
     category: 'Quality Assurance',
-    image: 'https://images.pexels.com/photos/5691660/pexels-photo-5691660.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['quality-control', 'manufacturing', 'best-practices', 'textile-testing'],
+    image: 'https://images.pexels.com/photos/7679721/pexels-photo-7679721.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tags: ['quality-control', 'manufacturing', 'best-practices', 'knitted-garments'],
     readTime: 8
   }
 ]
 
 export const blogCategories = [
   'All',
-  'Innovation',
+  'Manufacturing',
   'Market Analysis',
   'Quality Assurance',
   'Sustainability',

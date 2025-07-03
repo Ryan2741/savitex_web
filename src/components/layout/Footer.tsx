@@ -20,8 +20,8 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Leading the textile industry with premium yarns and innovative solutions. 
-              Specializing in import and export of high-quality textile products worldwide.
+              India-based manufacturers of premium knitted garments with integrated production. 
+              Wholesale distribution of T-shirts, hoodies, track pants, and golfers across South Africa.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors">
@@ -73,23 +73,23 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Products</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/products#cotton-yarns" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
-                  Cotton Yarns
+                <Link to="/products#t-shirts" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
+                  T-Shirts
                 </Link>
               </li>
               <li>
-                <Link to="/products#synthetic-yarns" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
-                  Synthetic Yarns
+                <Link to="/products#hoodies-sweatshirts" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
+                  Hoodies & Sweatshirts
                 </Link>
               </li>
               <li>
-                <Link to="/products#paper-textiles" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
-                  Paper-Based Textiles
+                <Link to="/products#track-pants-shorts" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
+                  Track Pants & Shorts
                 </Link>
               </li>
               <li>
-                <Link to="/products#specialty-fibers" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
-                  Specialty Fibers
+                <Link to="/products#golfers-polos" className="text-gray-300 hover:text-primary-400 transition-colors text-sm">
+                  Golfers & Polos
                 </Link>
               </li>
             </ul>
@@ -102,15 +102,15 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary-400 mt-0.5 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
-                  <p>123 Textile Avenue</p>
-                  <p>Industrial District</p>
-                  <p>Cape Town, 8001</p>
-                  <p>South Africa</p>
+                  <p>Manufacturing Unit:</p>
+                  <p>Gujarat, India</p>
+                  <p className="mt-2">Wholesale Operations:</p>
+                  <p>Durban, South Africa</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-400 flex-shrink-0" />
-                <span className="text-gray-300 text-sm">+27 21 123 4567</span>
+                <span className="text-gray-300 text-sm">+27 31 123 4567</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary-400 flex-shrink-0" />

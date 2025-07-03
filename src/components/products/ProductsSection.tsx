@@ -7,23 +7,23 @@ const ProductsSection = () => {
   const highlights = [
     {
       icon: <Zap className="w-6 h-6" />,
-      title: 'High Performance',
-      description: 'Superior strength and durability'
+      title: 'Fast Production',
+      description: 'Quick turnaround times for bulk orders'
     },
     {
       icon: <Leaf className="w-6 h-6" />,
-      title: 'Eco-Friendly',
-      description: 'Sustainable and biodegradable options'
+      title: 'Quality Fabrics',
+      description: 'Premium cotton and blended materials'
     },
     {
       icon: <Shield className="w-6 h-6" />,
       title: 'Quality Assured',
-      description: 'ISO certified manufacturing'
+      description: 'Rigorous quality control processes'
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: 'Industry Leading',
-      description: 'Trusted by global brands'
+      title: 'Custom Branding',
+      description: 'Private label and branding services'
     }
   ]
 
@@ -39,14 +39,14 @@ const ProductsSection = () => {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-medium mb-4">
-            Our Products
+            Our Product Range
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Premium <span className="text-gradient">Textile Solutions</span>
+            Premium <span className="text-gradient">Knitted Garments</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our comprehensive range of high-quality yarns and innovative textile products, 
-            designed to meet the diverse needs of global markets.
+            Discover our comprehensive range of high-quality knitted garments, from T-shirts 
+            and hoodies to track pants and golfers, all manufactured with precision and care.
           </p>
         </motion.div>
 
@@ -78,7 +78,7 @@ const ProductsSection = () => {
                   to={`/products#${category.id}`}
                   className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium text-sm group"
                 >
-                  Learn More
+                  View Products
                   <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
@@ -96,11 +96,11 @@ const ProductsSection = () => {
         >
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Why Choose SAVITEX Products?
+              Why Choose SAVITEX Garments?
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our commitment to excellence ensures that every product meets the highest 
-              standards of quality, performance, and sustainability.
+              Our integrated manufacturing process and strategic location in Durban ensures 
+              the highest quality garments with competitive pricing and reliable delivery.
             </p>
           </div>
 

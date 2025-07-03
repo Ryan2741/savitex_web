@@ -28,7 +28,7 @@ const HeroSection = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="inline-flex items-center px-3 md:px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-xs md:text-sm font-medium"
               >
-                🌟 Leading Textile Innovation Since 1995
+                🏭 Integrated Manufacturing Since 1995
               </motion.div>
               
               <motion.h1
@@ -37,8 +37,8 @@ const HeroSection = () => {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
               >
-                Premium <span className="text-gradient">Yarns</span> & 
-                <br />Textile Solutions
+                Premium <span className="text-gradient">Knitted Garments</span> 
+                <br />Manufacturing
               </motion.h1>
               
               <motion.p
@@ -47,9 +47,9 @@ const HeroSection = () => {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0"
               >
-                SAVITEX (Pty) Ltd specializes in the import and export of high-quality yarns 
-                and innovative textile products, including cutting-edge paper-based textiles 
-                for global markets.
+                India-based manufacturers of high-quality knitted garments with integrated units 
+                from yarn spinning to finished products. Wholesale T-shirts, hoodies, track pants, 
+                and more across South Africa.
               </motion.p>
             </div>
 
@@ -60,13 +60,13 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <Link to="/products" className="btn-primary group">
-                Explore Products
+                View Our Products
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
               
               <Link to="/about" className="btn-secondary group">
                 <Play className="w-5 h-5 mr-2" />
-                Learn More
+                Our Story
               </Link>
             </motion.div>
 
@@ -82,14 +82,14 @@ const HeroSection = () => {
                 <div className="text-xs md:text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-primary-600">50+</div>
-                <div className="text-xs md:text-sm text-gray-600">Countries Served</div>
+                <div className="text-2xl md:text-3xl font-bold text-primary-600">1M+</div>
+                <div className="text-xs md:text-sm text-gray-600">Garments Produced</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-2xl md:text-3xl font-bold text-primary-600">1000+</div>
+                <div className="text-2xl md:text-3xl font-bold text-primary-600">500+</div>
                 <div className="text-xs md:text-sm text-gray-600">Happy Clients</div>
               </div>
-            </motion.div>
+            </div>
           </motion.div>
 
           {/* Hero Image */}
@@ -101,8 +101,8 @@ const HeroSection = () => {
           >
             <div className="relative z-10">
               <img
-                src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Premium textile yarns and fabrics manufacturing"
+                src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Premium knitted garments manufacturing and wholesale"
                 className="rounded-2xl shadow-2xl w-full h-64 sm:h-80 md:h-96 lg:h-[600px] object-cover"
               />
               
@@ -117,8 +117,8 @@ const HeroSection = () => {
                     <span className="text-green-600 font-bold text-sm md:text-base">✓</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900 text-sm md:text-base">ISO Certified</div>
-                    <div className="text-xs md:text-sm text-gray-600">Quality Assured</div>
+                    <div className="font-semibold text-gray-900 text-sm md:text-base">Integrated Units</div>
+                    <div className="text-xs md:text-sm text-gray-600">Yarn to Garment</div>
                   </div>
                 </div>
               </motion.div>
@@ -130,11 +130,11 @@ const HeroSection = () => {
               >
                 <div className="flex items-center space-x-2 md:space-x-3">
                   <div className="w-8 h-8 md:w-12 md:h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600 font-bold text-sm md:text-base">🌍</span>
+                    <span className="text-blue-600 font-bold text-sm md:text-base">🇿🇦</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900 text-sm md:text-base">Global Reach</div>
-                    <div className="text-xs md:text-sm text-gray-600">Worldwide Shipping</div>
+                    <div className="font-semibold text-gray-900 text-sm md:text-base">South Africa</div>
+                    <div className="text-xs md:text-sm text-gray-600">Wholesale Distribution</div>
                   </div>
                 </div>
               </motion.div>

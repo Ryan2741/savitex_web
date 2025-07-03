@@ -5,8 +5,8 @@ import { Target, Eye, Heart, Users, Award, Globe } from 'lucide-react'
 const About = () => {
   const stats = [
     { number: '25+', label: 'Years Experience', icon: <Award className="w-6 h-6" /> },
-    { number: '50+', label: 'Countries Served', icon: <Globe className="w-6 h-6" /> },
-    { number: '1000+', label: 'Happy Clients', icon: <Users className="w-6 h-6" /> },
+    { number: '1M+', label: 'Garments Produced', icon: <Globe className="w-6 h-6" /> },
+    { number: '500+', label: 'Happy Clients', icon: <Users className="w-6 h-6" /> },
     { number: '100%', label: 'Quality Assured', icon: <Target className="w-6 h-6" /> }
   ]
 
@@ -14,59 +14,59 @@ const About = () => {
     {
       year: '1995',
       title: 'Company Founded',
-      description: 'SAVITEX (Pty) Ltd was established with a vision to revolutionize the textile industry.'
+      description: 'SAVITEX (Pty) Ltd was established as a knitted garments manufacturer in India.'
     },
     {
       year: '2000',
-      title: 'International Expansion',
-      description: 'Expanded operations to serve clients across multiple continents.'
+      title: 'Integrated Manufacturing',
+      description: 'Expanded to include yarn spinning and fabric knitting under one roof.'
     },
     {
       year: '2010',
-      title: 'Innovation Focus',
-      description: 'Invested heavily in R&D for sustainable textile solutions.'
+      title: 'South African Expansion',
+      description: 'Established wholesale operations in Durban, South Africa.'
     },
     {
       year: '2015',
-      title: 'Paper Textile Pioneer',
-      description: 'Launched groundbreaking paper-based textile product line.'
+      title: 'Product Diversification',
+      description: 'Expanded product range to include hoodies, track pants, and golfers.'
     },
     {
       year: '2020',
       title: 'Digital Transformation',
-      description: 'Implemented cutting-edge technology for enhanced customer experience.'
+      description: 'Implemented modern systems for better customer service and order management.'
     },
     {
       year: '2024',
-      title: 'Sustainability Leader',
-      description: 'Recognized as industry leader in sustainable textile manufacturing.'
+      title: 'Market Leadership',
+      description: 'Recognized as a leading wholesale garments supplier in South Africa.'
     }
   ]
 
   const team = [
     {
-      name: 'Sarah Mitchell',
+      name: 'Rajesh Patel',
       position: 'Chief Executive Officer',
-      image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=300',
-      bio: '20+ years in textile industry leadership'
-    },
-    {
-      name: 'Michael Chen',
-      position: 'Head of Operations',
       image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300',
-      bio: 'Expert in global supply chain management'
+      bio: '25+ years in textile manufacturing and business leadership'
     },
     {
-      name: 'Dr. Priya Sharma',
-      position: 'R&D Director',
+      name: 'Priya Sharma',
+      position: 'Head of Production',
       image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=300',
-      bio: 'Pioneer in sustainable textile innovation'
+      bio: 'Expert in garment manufacturing and quality control'
     },
     {
-      name: 'James Wilson',
+      name: 'Michael van der Merwe',
+      position: 'South Africa Operations Manager',
+      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300',
+      bio: 'Leading wholesale distribution across South Africa'
+    },
+    {
+      name: 'Anita Singh',
       position: 'Quality Assurance Manager',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300',
-      bio: 'ISO certification and quality control expert'
+      image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=300',
+      bio: 'Ensuring premium quality in every garment produced'
     }
   ]
 
@@ -74,8 +74,8 @@ const About = () => {
     <>
       <Helmet>
         <title>About Us - SAVITEX (Pty) Ltd</title>
-        <meta name="description" content="Learn about SAVITEX's 25+ year journey in textile innovation, our mission, vision, values, and the expert team driving our success in global markets." />
-        <meta name="keywords" content="about SAVITEX, textile company history, mission vision values, textile innovation, company leadership" />
+        <meta name="description" content="Learn about SAVITEX's journey as India-based manufacturers of premium knitted garments with integrated production and wholesale operations in South Africa." />
+        <meta name="keywords" content="about SAVITEX, knitted garments manufacturer, integrated manufacturing, wholesale clothing, South Africa distribution" />
         <link rel="canonical" href="/about" />
       </Helmet>
 
@@ -93,11 +93,12 @@ const About = () => {
                 About SAVITEX
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Pioneering <span className="text-gradient">Textile Excellence</span> Since 1995
+                Pioneering <span className="text-gradient">Knitted Garments</span> Manufacturing Since 1995
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                For over 25 years, SAVITEX (Pty) Ltd has been at the forefront of textile innovation, 
-                transforming the industry with premium yarns and revolutionary paper-based textile solutions.
+                India-based manufacturers of high-quality knitted garments with integrated units 
+                from yarn spinning to finished products, strategically positioned in Durban for 
+                wholesale distribution across South Africa.
               </p>
             </motion.div>
           </div>
@@ -143,8 +144,8 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  To provide premium quality yarns and innovative textile solutions that exceed 
-                  customer expectations while promoting sustainable practices and environmental responsibility.
+                  To manufacture and wholesale premium quality knitted garments through integrated 
+                  production processes, delivering exceptional value to our clients across South Africa.
                 </p>
               </motion.div>
 
@@ -160,8 +161,8 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  To be the global leader in sustainable textile innovation, setting industry standards 
-                  for quality, environmental stewardship, and technological advancement.
+                  To be the leading wholesale supplier of knitted garments in South Africa, 
+                  known for quality, reliability, and competitive pricing in the market.
                 </p>
               </motion.div>
 
@@ -177,8 +178,8 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Values</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Integrity, innovation, sustainability, and customer-centricity guide everything we do. 
-                  We believe in building lasting partnerships through trust and excellence.
+                  Quality craftsmanship, integrated manufacturing excellence, customer satisfaction, 
+                  and building lasting partnerships through trust and reliable service delivery.
                 </p>
               </motion.div>
             </div>
@@ -199,7 +200,8 @@ const About = () => {
                 Our <span className="text-gradient">Journey</span>
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From humble beginnings to industry leadership, discover the milestones that shaped SAVITEX.
+                From a small manufacturing unit to an integrated garments powerhouse with 
+                strategic wholesale operations across South Africa.
               </p>
             </motion.div>
 
@@ -246,7 +248,8 @@ const About = () => {
                 Meet Our <span className="text-gradient">Leadership Team</span>
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Our experienced leadership team brings decades of industry expertise and innovation.
+                Our experienced leadership team brings decades of manufacturing expertise 
+                and market knowledge to deliver exceptional results.
               </p>
             </motion.div>
 
