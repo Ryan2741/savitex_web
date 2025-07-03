@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
-import { Search, Filter, Download, ArrowRight } from 'lucide-react'
+import { Search, Filter, ArrowRight } from 'lucide-react'
 import { productCategories, products } from '../data/products'
+import QuoteModal from '../components/products/QuoteModal'
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredProducts, setFilteredProducts] = useState(products)
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false)
+  const [selectedProduct, setSelectedProduct] = useState('')
 
   useEffect(() => {
     let filtered = products
@@ -34,12 +37,17 @@ const Products = () => {
     }
   }, [])
 
+  const handleQuoteRequest = (productName: string) => {
+    setSelectedProduct(productName)
+    setIsQuoteModalOpen(true)
+  }
+
   return (
     <>
       <Helmet>
-        <title>Products - Premium Yarns & Textile Solutions | SAVITEX</title>
-        <meta name="description" content="Explore SAVITEX's comprehensive range of premium yarns, cotton yarns, synthetic yarns, paper-based textiles, and specialty fibers for global markets." />
-        <meta name="keywords" content="cotton yarns, synthetic yarns, paper textiles, specialty fibers, textile products, yarn specifications, SAVITEX products" />
+        <title>Products - Premium Knitted Garments | SAVITEX (Pty) Ltd</title>
+        <meta name="description" content="Explore SAVITEX's comprehensive range of premium knitted garments including T-shirts, hoodies, track pants, and golfers for wholesale distribution." />
+        <meta name="keywords" content="knitted garments, T-shirts, hoodies, track pants, golfers, wholesale clothing, SAVITEX products" />
         <link rel="canonical" href="/products" />
       </Helmet>
 
@@ -57,11 +65,11 @@ const Products = () => {
                 Our Products
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Premium <span className="text-gradient">Textile Solutions</span>
+                Premium <span className="text-gradient">Knitted Garments</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Discover our comprehensive range of high-quality yarns and innovative textile products, 
-                designed to meet the diverse needs of global markets.
+                Discover our comprehensive range of high-quality knitted garments, 
+                designed to meet the diverse needs of wholesale markets across South Africa.
               </p>
             </motion.div>
           </div>
@@ -214,14 +222,12 @@ const Products = () => {
                       </div>
                     )}
 
-                    <div className="flex space-x-3">
-                      <button className="flex-1 btn-primary text-sm py-2">
-                        Request Quote
-                      </button>
-                      <button className="px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
-                        <Download className="w-4 h-4" />
-                      </button>
-                    </div>
+                    <button 
+                      onClick={() => handleQuoteRequest(product.name)}
+                      className="w-full btn-primary text-sm py-2"
+                    >
+                      Request Quote
+                    </button>
                   </div>
                 </motion.div>
               ))}
@@ -239,6 +245,13 @@ const Products = () => {
           </div>
         </section>
       </div>
+
+      {/* Quote Modal */}
+      <QuoteModal
+        isOpen={isQuoteModalOpen}
+        onClose={() => setIsQuoteModalOpen(false)}
+        productName={selectedProduct}
+      />
     </>
   )
 }
