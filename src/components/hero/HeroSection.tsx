@@ -89,7 +89,7 @@ const HeroSection = () => {
                 <div className="text-2xl md:text-3xl font-bold text-primary-600">500+</div>
                 <div className="text-xs md:text-sm text-gray-600">Happy Clients</div>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
 
           {/* Hero Image */}
