@@ -17,12 +17,12 @@ const createTransporter = () => {
   
   // For development/demo, use a test account
   return nodemailer.createTransporter({
-    host: 'smtp.ethereal.email',
-    port: 587,
-    secure: false,
+    host: 'smtp.hostinger.com',
+    port: 465,
+    secure: true,
     auth: {
-      user: 'ethereal.user@ethereal.email',
-      pass: 'ethereal.pass',
+      user: 'web-form-submit@savitex.co.za',
+      pass: 'z7/zlhjdEI',
     },
   });
 };
