@@ -15,7 +15,7 @@ const createTransporter = () => {
     });
   }
   
-  // For development/demo, use a test account
+  // For development/demo, use the configured SMTP settings
   return nodemailer.createTransporter({
     host: 'smtp.hostinger.com',
     port: 465,
@@ -24,6 +24,8 @@ const createTransporter = () => {
       user: 'web-form-submit@savitex.co.za',
       pass: 'z7/zlhjdEI',
     },
+    debug: true, // Enable debug logging
+    logger: true, // Enable logging
   });
 };
 
@@ -42,6 +44,8 @@ export default async function handler(req, res) {
   }
 
   try {
+    console.log('Received quote request:', req.body);
+
     const {
       productName,
       customerName,
@@ -54,10 +58,21 @@ export default async function handler(req, res) {
 
     // Validate required fields
     if (!productName || !customerName || !customerEmail) {
+      console.log('Missing required fields');
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
+    console.log('Creating transporter...');
     const transporter = createTransporter();
+
+    // Test the connection
+    try {
+      await transporter.verify();
+      console.log('SMTP connection verified successfully');
+    } catch (verifyError) {
+      console.error('SMTP verification failed:', verifyError);
+      return res.status(500).json({ error: 'SMTP configuration error' });
+    }
 
     // Email content
     const emailContent = `
@@ -79,24 +94,25 @@ export default async function handler(req, res) {
       ` : ''}
       
       <hr>
-      <p><small>This quote request was submitted through the SAVITEX website.</small></p>
+      <p><small>This quote request was submitted through the SAVITEX website on ${new Date().toLocaleString()}.</small></p>
     `;
 
     // Email to sales team
     const mailOptions = {
-      from: process.env.SMTP_FROM || 'noreply@savitex.co.za',
+      from: 'web-form-submit@savitex.co.za',
       to: 'sales@savitex.co.za',
       subject: `Quote Request: ${productName} - ${customerName}`,
       html: emailContent,
       replyTo: customerEmail,
     };
 
-    // Send email
-    await transporter.sendMail(mailOptions);
+    console.log('Sending email to sales team...');
+    const salesEmailResult = await transporter.sendMail(mailOptions);
+    console.log('Sales email sent successfully:', salesEmailResult.messageId);
 
     // Send confirmation email to customer
     const confirmationEmail = {
-      from: process.env.SMTP_FROM || 'noreply@savitex.co.za',
+      from: 'web-form-submit@savitex.co.za',
       to: customerEmail,
       subject: 'Quote Request Received - SAVITEX (Pty) Ltd',
       html: `
@@ -125,11 +141,21 @@ export default async function handler(req, res) {
       `,
     };
 
-    await transporter.sendMail(confirmationEmail);
+    console.log('Sending confirmation email to customer...');
+    const confirmationResult = await transporter.sendMail(confirmationEmail);
+    console.log('Confirmation email sent successfully:', confirmationResult.messageId);
 
-    res.status(200).json({ success: true, message: 'Quote request sent successfully' });
+    res.status(200).json({ 
+      success: true, 
+      message: 'Quote request sent successfully',
+      salesEmailId: salesEmailResult.messageId,
+      confirmationEmailId: confirmationResult.messageId
+    });
   } catch (error) {
     console.error('Error sending quote request:', error);
-    res.status(500).json({ error: 'Failed to send quote request' });
+    res.status(500).json({ 
+      error: 'Failed to send quote request',
+      details: error.message 
+    });
   }
 }

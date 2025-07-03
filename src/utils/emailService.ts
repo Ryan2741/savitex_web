@@ -10,6 +10,8 @@ export interface QuoteRequest {
 
 export const sendQuoteRequest = async (quoteData: QuoteRequest): Promise<boolean> => {
   try {
+    console.log('Sending quote request:', quoteData);
+    
     const response = await fetch('/api/send-quote', {
       method: 'POST',
       headers: {
@@ -18,10 +20,15 @@ export const sendQuoteRequest = async (quoteData: QuoteRequest): Promise<boolean
       body: JSON.stringify(quoteData),
     })
 
+    const result = await response.json();
+    console.log('API Response:', result);
+
     if (!response.ok) {
-      throw new Error('Failed to send quote request')
+      console.error('API Error:', result);
+      throw new Error(result.error || 'Failed to send quote request')
     }
 
+    console.log('Quote request sent successfully');
     return true
   } catch (error) {
     console.error('Error sending quote request:', error)
