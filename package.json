@@ -9,7 +9,12 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "server": "node server.js",
-    "start": "npm run build && npm run server"
+    "start": "npm run build && npm run server",
+    "deploy": "npm run build && npm run server",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop savitex",
+    "pm2:restart": "pm2 restart savitex",
+    "pm2:logs": "pm2 logs savitex"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.38.4",
@@ -39,5 +44,9 @@
     "tailwindcss": "^3.3.6",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }
